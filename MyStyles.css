@@ -1,0 +1,72 @@
+.logo {
+    float:left;
+    width: 100px;
+    height:100px;
+    content: url(logo.png.png)
+}
+
+
+.header{
+    font-size:50px;
+    font-family:;
+    background-color: turquoise;
+    height:100px;
+    text-align: center;
+    
+    
+}
+
+
+.nav {
+    float: left;
+    width: 20%;
+    background-color: turquoise;
+    height: 50px;
+    font-size:23px;
+}
+li a { 
+    
+    display: block;
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: teal;
+    padding:5px;
+    object-position: left;
+    
+    
+     }
+li a:hover{
+    background-color:deepskyblue;
+}
+
+.text{
+    float:left;
+    width: 70%;
+    height: 515.6px;
+    background-color: turquoise;
+    font-size: 40px;
+    content: url(RainbowRanks.png);
+    height: 400
+}
+
+.main {
+    float: left;
+    width: 70%;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .nav .main .header {
+        width: 100%;
+    }
+}
+
+body {
+    background-color: paleturquoise;
+}
+
+
+    
