@@ -16,7 +16,7 @@
     float:left;
 }
 ul{
-    list-style-type: none;
+    list-style-type:none; 
     
     
 }
@@ -32,6 +32,25 @@ li a {
     
     
      }
+.external_links li a { 
+    
+    font-family: monospace;
+    float:left;
+    display: block;
+    background-color: #ebebeb;
+    font-size: 13px;
+    border-style: solid;
+    border-color: gray;
+    padding:5px;
+    width: 105;
+    height: 45;
+    
+    
+    
+     }
+.external_links li a:hover{
+    background-color:darkgrey;
+}
 li a:hover{
     background-color:darkgrey;
 }
@@ -50,7 +69,8 @@ li a:hover{
     height: 50px;
     background-color: #317b9a;
     float: left;
-    margin-right: 10px
+    font-family:monospace;
+    font-size: 23;
     
     
     
@@ -61,7 +81,9 @@ li a:hover{
     height: 570;
     margin: auto;
     width: 850px;
-    
+    padding-top: 70;
+    font-family: monospace;
+    font-size: 23;
 }
 .content{
   margin-top: 10;
