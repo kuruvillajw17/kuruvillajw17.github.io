@@ -35,7 +35,7 @@ li a {
 .external_links li a { 
     
     font-family: monospace;
-    float:left;
+    float: left;
     display: block;
     background-color: #ebebeb;
     font-size: 13px;
@@ -69,7 +69,6 @@ li a:hover{
     width:100%;
     height: 50px;
     background-color: #317b9a;
-    float: left;
     font-family:monospace;
     font-size: 23;
     
@@ -82,12 +81,18 @@ li a:hover{
 }
 .main{
     background-color: #f45b69;
-    height: 800;
+    height: 600;
     margin: auto;
     width: 850px;
     padding-top: 70;
     font-family: monospace;
     font-size: 20;
+}
+.image{
+    content: url(Climate%20change%20cartoon.png);
+    width: 685;
+    
+    
 }
 .content{
   margin-top: 10;
