@@ -65,6 +65,7 @@ li a:hover{
     margin-bottom: 44px;
 }
 .external_links{
+    text-align: center;
     width:100%;
     height: 50px;
     background-color: #317b9a;
@@ -76,14 +77,17 @@ li a:hover{
     
     
 }
+.main i{
+   font-size: 12; 
+}
 .main{
     background-color: #f45b69;
-    height: 570;
+    height: 800;
     margin: auto;
     width: 850px;
     padding-top: 70;
     font-family: monospace;
-    font-size: 23;
+    font-size: 20;
 }
 .content{
   margin-top: 10;
