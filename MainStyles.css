@@ -1,12 +1,12 @@
-.container {
+.container { /*This is the box that has all the other divs in it so that i can control the max and min size of the website.*/
     width:100%;
 }
 
-.header_left {
+.header_left { /*Separates the Header and Navigation div from the rest of the divs */
     float:left;
     width:80%;
 }
-.header{
+.header{ /*The header of th design to show audience the web is about climate change */
     background-color:#59c3c3;  
     width: 80%;
     height: 30px;
@@ -15,12 +15,12 @@
     font-size: 26;
     float:left;
 }
-ul{
+ul{ /*sets list style so that no bullet points appear */
     list-style-type:none; 
     
     
 }
-li a { 
+li a { /*Controls the list of the navigation */
     float:left;
     display: block;
     background-color: #ebebeb;
@@ -32,15 +32,15 @@ li a {
     
     
      }
-.external_links li a { 
+.external_links li a { /*controls the list of the external links */
     
     font-family: monospace;
     float: left;
     display: block;
-    background-color: #ebebeb;
+    background-color: #317b9a;
     font-size: 13px;
     border-style: solid;
-    border-color: gray;
+    border-color: #22576D;
     padding:5px;
     width: 105;
     height: 45;
@@ -48,13 +48,13 @@ li a {
     
     
      }
-.external_links li a:hover{
-    background-color:darkgrey;
+.external_links li a:hover{ /*As a mouse cursor hovers over the link the box will change colour as an indicator */
+    background-color:#2C6F8C;
 }
-li a:hover{
-    background-color:darkgrey;
+li a:hover{ /*As a mouse cursor hovers over the link the box will change colour as an indicator */
+    background-color:darkgray;
 }
-.navigation{
+.navigation{ /*The link div to other pahges on the website */
     
     width: 400px;
     height: 30px;
@@ -64,44 +64,45 @@ li a:hover{
     font-size: 20;
     margin-bottom: 44px;
 }
-.external_links{
+.external_links{ /*Links to other pages not associated with the website*/
     text-align: center;
     width:100%;
     height: 50px;
     background-color: #317b9a;
     font-family:monospace;
     font-size: 23;
+    height: 110px;
     
     
     
     
 }
-.main i{
+.main i{ /*Controls the small text at the bottom of the page*/
    font-size: 12; 
 }
-.main{
+.main{ /*Controls the main writing about climate change*/
     background-color: #f45b69;
-    height: 600;
+    height: 900;
     margin: auto;
     width: 850px;
-    padding-top: 70;
+    padding-top: 30;
     font-family: monospace;
     font-size: 20;
 }
-.image{
-    content: url(Climate%20change%20cartoon.png);
+.image{ /*Adds a cartoon that i made about climate change and how time is slowly running out*/
+    content: url(Improved_Climate_Cartoon.png);
     width: 685;
-    
+    padding: 5px
     
 }
-.content{
+.content{ /*controls the position of the image*/
   margin-top: 10;
   float: left; 
     
     
     
 }
-@media screen and (max-width: 10000px) {
+@media screen and (max-width: 10000px) { /*controls the min and max hieght and width of the web*/
     .navigation, .header, .main, .external_links, .container, .content, .header_left {
         width: 100%;
         float:none;
