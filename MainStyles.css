@@ -67,11 +67,10 @@ li a:hover{ /*As a mouse cursor hovers over the link the box will change colour 
 .external_links{ /*Links to other pages not associated with the website*/
     text-align: center;
     width:100%;
-    height: 50px;
     background-color: #317b9a;
     font-family:monospace;
     font-size: 23;
-    height: 110px;
+    height: 135px;
     
     
     
